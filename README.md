@@ -1,6 +1,14 @@
 # Description of repository
 
-Supplementary material to a meta-analysis on the latitudinal patterns of herbivory in native versus non-native plants. The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
+The documents in this repository provide the R scripts, data, and supplementary files used for analyzing global latitudinal patterns of herbivory in native versus non-native plants, including the roles of climatic gradients, herbivore feeding guilds, and plant phylogeny.
+
+For comprehensive results and methodological details, please refer to our study titled:
+
+> **"Herbivory increases towards lower latitudes in native but not introduced plants."**
+
+**Corresponding author:** Rui-Ting Ju ([jurt@fudan.edu.cn](mailto:jurt@fudan.edu.cn))   
+
+The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
 🔗 [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
 
 **Manuscript folder:**
