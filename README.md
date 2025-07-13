@@ -3,14 +3,14 @@
 Supplementary material to a meta-analysis on the latitudinal patterns of herbivory in native versus non-native plants. The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
 🔗 [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
 
-Manuscript folder:
+**Manuscript folder:**
 
 - Manuscript of meta-analysis (RMarkdown `.rmd` and compiled `.pdf`)
 - Bibliography file (`.bib`) with citation style used to compile the manuscript
 - Figures folder includes the four main figures used in the manuscript
 - Table 2 (within the manuscript) is also available in `.csv` format
 
-## Data folder:
+**Data folder:**
 
 - `meta_analysis_dataset.csv`  
   The source data used for all meta-analyses
@@ -21,12 +21,12 @@ Manuscript folder:
 - `Outcome.descriptions.csv`  
   Table documenting how herbivory was measured across different studies (also presented in the Supplementary Material)
 
-## Figures folder:
+**Figures folder:**
 
 - `ForestPlot_large.pdf` / `ForestPlot_large.png`  
   High-resolution version of the forest plot featured in the HTML supplementary material
 
-## Main directory:
+**Main directory:**
 
 - `.R functions`  
   Helpful R functions sourced outside the main analysis RMarkdown (used in `meta_analysis_herbivory_latitude.rmd`)
