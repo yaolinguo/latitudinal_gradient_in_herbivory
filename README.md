@@ -3,7 +3,7 @@
 Supplementary material to a meta-analysis on the latitudinal patterns of herbivory in native versus non-native plants. The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
 🔗 [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
 
-# Manuscript folder:
+Manuscript folder:
 
 - Manuscript of meta-analysis (RMarkdown `.rmd` and compiled `.pdf`)
 - Bibliography file (`.bib`) with citation style used to compile the manuscript
