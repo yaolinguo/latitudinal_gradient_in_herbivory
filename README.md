@@ -1,6 +1,6 @@
 # Description of repository
 
-The documents in this repository provide the **R scripts**, data, and supplementary files used for analyzing global latitudinal patterns of herbivory in native versus non-native plants, including the roles of climatic gradients, herbivore feeding guilds, and plant phylogeny. For comprehensive results and methodological details, please refer to our study titled:
+The documents in this repository provide the **R scripts**, **data**, and **supplementary files** used for analyzing global latitudinal patterns of herbivory in native versus non-native plants, including the roles of climatic gradients, herbivore feeding guilds, and plant phylogeny. For comprehensive results and methodological details, please refer to our study titled:
 
 > **"Herbivory increases towards lower latitudes in native but not introduced plants."**
 
