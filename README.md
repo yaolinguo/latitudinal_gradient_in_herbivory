@@ -1,6 +1,6 @@
 # Description of repository
 
-The documents in this repository provide the **R scripts**, **data**, and **supplementary files** used for analyzing global latitudinal patterns of herbivory in native versus non-native plants, including the roles of climatic gradients, herbivore feeding guilds, and plant phylogeny. For comprehensive results and methodological details, please refer to our study titled:
+The documents in this repository provide the R scripts, data, and supplementary files used for analyzing global latitudinal patterns of herbivory in native versus non-native plants, including the roles of climatic gradients, herbivore feeding guilds, and plant phylogeny. For comprehensive results and methodological details, please refer to our study titled:
 
 > **"Herbivory increases towards lower latitudes in native but not introduced plants."**
 
@@ -8,13 +8,6 @@ The documents in this repository provide the **R scripts**, **data**, and **supp
 
 The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
 [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
-
-**Manuscript folder:**
-
-- Manuscript of meta-analysis (RMarkdown `.rmd` and compiled `.pdf`)
-- Bibliography file (`.bib`) with citation style used to compile the manuscript
-- Figures folder includes the four main figures used in the manuscript
-- Table 2 (within the manuscript) is also available in `.csv` format
 
 **Data folder:**
 
@@ -32,7 +25,7 @@ The webpage containing the neatly formatted supplementary material (code, figure
 - `ForestPlot_large.pdf` / `ForestPlot_large.png`  
   High-resolution version of the forest plot featured in the HTML supplementary material
 
-**Main directory:**
+**Code folder:**
 
 - `.R functions`  
   Helpful R functions sourced outside the main analysis RMarkdown (used in `meta_analysis_herbivory_latitude.rmd`)
