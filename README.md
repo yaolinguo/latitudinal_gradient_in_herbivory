@@ -11,7 +11,7 @@ The webpage containing the neatly formatted supplementary material (code, figure
 
 **Data folder:**
 
-- `Data_zr_herbivory-latitude.csv`   This file contains Fisher’s z‑transformed effect sizes (`zr`) representing the strength and direction of latitudinal herbivory gradients, based on correlations between herbivory intensity and latitude across studies. It was used to test whether herbivory increases toward lower latitudes.
+- `Data_zr_herbivory-latitude.csv`   This file contains Fisher’s z‑transformed effect sizes (`zr`) representing the strength and direction of latitudinal herbivory gradients, based on correlations between herbivory intensity and latitude across studies. It was used to assess whether the strength and direction of latitudinal herbivory gradients differ between native and non-native plant species.
   
 - `Data_zr_herbivory-bioclimate.csv`  This dataset contains Fisher’s z‑transformed effect sizes (`zr`), calculated from correlations between herbivory intensity and 19 bioclimatic variables (Bio1–Bio19).  
   It was used to evaluate how herbivory patterns respond to climatic gradients across latitude.
