@@ -27,8 +27,7 @@ This dataset contains effect sizes (`zr`) quantifying the strength and direction
 - Negative `zr` values indicate increasing herbivory at lower latitudes.
 - Used in REML models to compare overall gradients and plant status-specific patterns.
 
-
-
+---
 
 # Data_zr_herbivory-bioclimate.csv
 
