@@ -19,17 +19,17 @@ The webpage containing the neatly formatted supplementary material (code, figure
 
 **Code folder:**
 
-- `R code 1 - Geospatial mapping and overall effect size synthesis - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
+- `R code 1 - Geospatial mapping and overall effect size synthesis - 0713.R`  Cleans the raw dataset, plots the geographic distribution of all study sites on a world map, estimates the overall strength of the latitudinal herbivory gradient, and contrasts that gradient between native and non‑native plant species.
 
-- `R code 2 - Herbivory feeding guild effects - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
+- `R code 2 - Herbivory feeding guild effects - 0713.R`  Conducts subgroup meta‑analyses by herbivore feeding guilds, produces forest plots, and tests whether feeding guild differentially moderates herbivory in native versus non‑native plants.
 
-- `R code 3 - Bioclimatic variable effetcs - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
+- `R code 3 - Bioclimatic variable effetcs - 0713.R`  Quantify how bioclimate variablies influence the latitudinal pattern of herbivory.
 
-- `R code 4 - Publication bias assessment - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
+- `R code 4 - Publication bias assessment - 0713.R`  Detects and corrects publication bias using funnel plots, Egger’s regression, and trim‑and‑fill procedures, and exports comprehensive bias‑diagnostic outputs.
 
-- `R code 5 - Phylogenetic tree construction and analysis - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
+- `R code 5 - Phylogenetic tree construction and analysis - 0713.R`  Builds a phylogenetic tree and calculates Pagel’s λ to evaluate phylogenetic signal in the strength of the latitudinal herbivory gradient.
 
-- `R code 6 - Latitudinal range effects - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
+- `R code 6 - Latitudinal range effects - 0713.R`  Uses regression to test how a species’ latitudinal range width (geographic breadth) modulates the strength of the latitudinal herbivory gradient.
 
 **Figures folder:**
 
