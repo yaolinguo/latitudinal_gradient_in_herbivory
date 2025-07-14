@@ -28,6 +28,8 @@ This dataset contains effect sizes (`zr`) quantifying the strength and direction
 - Used in REML models to compare overall gradients and plant status-specific patterns.
 
 
+
+
 # Data_zr_herbivory-bioclimate.csv
 
 This dataset contains Fisher’s z‑transformed effect sizes (zr), calculated from correlations between herbivory intensity and 19 bioclimatic variables (Bio1–Bio19). It was used to evaluate how herbivory patterns respond to climatic gradients across latitude.
