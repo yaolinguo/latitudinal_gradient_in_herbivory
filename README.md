@@ -9,31 +9,41 @@ The documents in this repository provide the R scripts, data, and supplementary 
 The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
 [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
 
+
 **Data folder:**
 
-- `meta_analysis_dataset.csv`  
-  The source data used for all meta-analyses
+- `Data_zr_herbivory-bioclimate.csv`  The source data used for all meta-analyses
 
-- `Eligibility_Workbook.csv`  
-  Table documenting the reasons for inclusion or exclusion of each study (as presented in the Supplementary Material)
+- `Data_zr_herbivory-latitude.csv`  Table documenting the reasons for inclusion or exclusion of each study (as presented in the Supplementary Material)
 
-- `Outcome.descriptions.csv`  
-  Table documenting how herbivory was measured across different studies (also presented in the Supplementary Material)
 
 **Figures folder:**
 
-- `ForestPlot_large.pdf` / `ForestPlot_large.png`  
-  High-resolution version of the forest plot featured in the HTML supplementary material
+- `Figure 1 - 0713.pdf`  Conceptual models illustrating six potential scenarios of latitudinal gradients in herbivory on native (blue) and non-native (red) plants.
+
+- `Figure 2 - 0713.pdf`  Map of all herbivory observation sites included in this meta-analysis, and the average strengths of latitudinal herbivory gradients.
+
+- `Figure 3 - 0713.pdf`  The average strengths of latitudinal herbivory gradients for different herbivore feeding guilds across all plants, and separately for native (blue symbols) and non-native (red symbols) plants.
+
+- `Figure 4 - 0713.pdf`  Results from REML meta‑analyses showing the effects of bioclimatic variables on herbivory.
+  
+- `Figure 5 - 0713.pdf`   Tests for publication bias in the dataset.
+       
+- `Figure S1 - 0713.pdf`  Phylogenetic tree of the collected plant species and their average strengths of latitudinal herbivory gradients.
+         
+- `Figure S2 - 0713.pdf`  The relationships between herbivory effect sizes (zr) and latitudinal extension.
+
 
 **Code folder:**
 
-- `.R functions`  
-  Helpful R functions sourced outside the main analysis RMarkdown (used in `meta_analysis_herbivory_latitude.rmd`)
+- `R code 1 - Geospatial mapping and overall effect size synthesis - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
 
-- `meta_analysis_herbivory_latitude.rmd`  
-  The complete RMarkdown with all analysis code used in the manuscript.  
-  The HTML-rendered version of this file is named `index.html` and hosted here:  
-  [https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/)
+- `R code 2 - Herbivory feeding guild effects - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
 
-- `Response_to_Reviewers.rmd` / `.pdf`  
-  The response to peer reviewers, along with a short bibliography (`bibliography_meta_analysis.bib`) used to format the document
+- `R code 3 - Bioclimatic variable effetcs - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
+
+- `R code 4 - Publication bias assessment - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
+
+- `R code 5 - Phylogenetic tree construction and analysis - 0713.R`  Cleans raw data, computes random‑effects meta estimates, produces global maps of effect sizes.
+
+- `R code 6 - Latitudinal range effects - 0713.R`  Sub‑group meta‑analysis contrasting chewing, sap‑sucking, leaf‑miner, etc.
