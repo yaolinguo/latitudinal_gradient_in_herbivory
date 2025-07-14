@@ -1,22 +1,22 @@
 # Data_zr_herbivory-latitude.csv
 
-This dataset contains effect sizes (`zr`) quantifying the strength and direction of latitudinal herbivory gradients across native and non-native plant species.
+This UTF‑8–encoded CSV holds Fisher **z‑transformed effect sizes (`zr`)** quantifying the relationship between herbivory and latitude for both native and non‑native plant species.
 
 ## Column descriptions
 
 | Column name              | Description |
 |--------------------------|-------------|
-| `Reference`              | Abbreviated citation for the original study |
-| `Journal_name`           | Name of the journal where the study was published |
-| `Publication_year`       | Year the study was published |
-| `Experiment_year`        | Year when the original herbivory experiment or field data were collected |
+| `Reference`              | Abbreviated citation for the original study (First author and year). |
+| `Journal_name`           | Name of the journal where the study was published. |
+| `Publication_year`       | Year of publication. |
+| `Experiment_year`        | Year(s) in which herbivory data were collected.|
 | `IF`                     | Journal impact factor (5-year IF from Web of Science) |
 | `Data_details`           | Notes about data extraction (e.g., whether derived from figures, tables, raw data) |
-| `Variable_name`          | Description of the herbivory type|
-| `Variable_identity`      | Data were based on herbivory intensity (e.g., percentage of leaf area removed) or on herbivore abundance, and were used as proxies for herbivory pressure in our study |
+| `Variable_name`          | Short description of the herbivory type|
+| `Variable_identity`      | Categorical flag: `intensity` (direct damage metrics such as % leaf‑area removed) or `abundance` (herbivore counts used as a proxy for herbivory pressure). |
 | `Plant_species`          | Scientific name of the plant species involved |
 | `Plant_status`           | Whether the plant is native or non-native in the study location (`native` / `non-native`) |
-| `Herbivore_feeding_guild`| Type of herbivore interacting with the plant (`All folivores`, `defoliator`, `Grazers`, `Gallers`, `Miners`, `Seed feeders`, `Sap feeders`, `Stem feeders`) |
+| `Herbivore_feeding_guild`| Type of herbivore feeding guild: `All folivores`, `defoliator`, `Grazers`, `Gallers`, `Miners`, `Seed feeders`, `Sap feeders`, `Stem feeders`. |
 | `cor`                    | Raw Pearson correlation coefficient between herbivory and latitude |
 | `n`                      | Number of observations (e.g., sites or populations) used to calculate the correlation |
 | `zr`                     | Fisher’s z-transformed correlation coefficient |
@@ -24,24 +24,26 @@ This dataset contains effect sizes (`zr`) quantifying the strength and direction
 
 ## Notes
 
-- Negative `zr` values indicate increasing herbivory at lower latitudes.
-- Used in REML models to compare overall gradients and plant status-specific patterns.
+- Negative `zr` values indicate stronger herbivory toward lower latitudes; positive values indicate the opposite.
+- These effect sizes feed into REML meta‑analytic models comparing overall and status‑specific latitudinal gradients.
 
 ---
 
 # Data_zr_herbivory-bioclimate.csv
 
-This dataset contains Fisher’s z‑transformed effect sizes (zr), calculated from correlations between herbivory intensity and 19 bioclimatic variables (Bio1–Bio19). It was used to evaluate how herbivory patterns respond to climatic gradients across latitude.
+A companion UTF‑8 CSV that expands the latitude dataset with **WorldClim 2.1 bioclimatic predictors**.  Each row is the correlation between herbivory and one bioclimatic variable for a given plant–study combination.
 
 ## Column descriptions
 
-- `Data_zr_herbivory-bioclimate.csv` contains the same columns as `Data_zr_herbivory-latitude.csv`, with one additional column:
+- **All columns are identical to _Data_zr_herbivory-latitude.csv_**, plus one additional identifier:
   
 | Column name       | Description |
 |-------------------|-------------|
-| `Bio_var`         | Indicates the specific bioclimatic variable used to calculate each effect size. Bioclimatic predictors include annual mean temperature (Bio 1), mean diurnal range (Bio 2), isothermality (Bio 3), temperature seasonality (Bio 4), maximum temperature of the warmest month (Bio 5), minimum temperature of the coldest month (Bio 6), annual temperature range (Bio 7), mean temperature of the wettest quarter (Bio 8), mean temperature of the driest quarter (Bio 9), mean temperature of the warmest quarter (Bio 10), mean temperature of the coldest quarter (Bio 11), annual precipitation (Bio 12), precipitation of the wettest month (Bio 13), precipitation of the driest month (Bio 14), precipitation seasonality (Bio 15), precipitation of the wettest quarter (Bio 16), precipitation of the driest quarter (Bio 17), precipitation of the warmest quarter (Bio 18), and precipitation of the coldest quarter (Bio 19). |
+| `Bio_var`         | Code for the bioclimatic variable used in the correlation:<br>• `Bio1` – Annual mean temperature<br>• `Bio2` – Mean diurnal range<br>• `Bio3` – Isothermality<br>• `Bio4` – Temperature seasonality<br>• `Bio5` – Max temperature of warmest month<br>• `Bio6` – Min temperature of coldest month<br>• `Bio7` – Annual temperature range<br>• `Bio8` – Mean temp. of wettest quarter<br>• `Bio9` – Mean temp. of driest quarter<br>• `Bio10` – Mean temp. of warmest quarter<br>• `Bio11` – Mean temp. of coldest quarter<br>• `Bio12` – Annual precipitation<br>• `Bio13` – Precipitation of wettest month<br>• `Bio14` – Precipitation of driest month<br>• `Bio15` – Precipitation seasonality<br>• `Bio16` – Precipitation of wettest quarter<br>• `Bio17` – Precipitation of driest quarter<br>• `Bio18` – Precipitation of warmest quarter<br>• `Bio19` – Precipitation of coldest quarter |
 
 ## Notes
 
-- Bioclimatic variables follow WorldClim naming (e.g., `Bio1` = Annual Mean Temperature, `Bio12` = Annual Precipitation).
-- This dataset supports moderator analysis of climatic drivers on herbivory.
+- Units follow WorldClim conventions (temperature × 10 °C, precipitation in mm).  
+- Negative `zr` implies herbivory increases as the climate variable decreases (and vice‑versa).  
+- Used as moderators in mixed‑effects REML models examining bioclimatic effects on herbivory across latitude.
+
