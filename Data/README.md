@@ -10,13 +10,13 @@ This UTF‑8–encoded CSV holds Fisher **z‑transformed effect sizes (`zr`)** 
 | `Journal_name`           | Name of the journal where the study was published. |
 | `Publication_year`       | Year of publication. |
 | `Experiment_year`        | Year(s) in which herbivory data were collected.|
-| `IF`                     | Journal impact factor (5-year IF from Web of Science) |
+| `IF`                     | Five‑year journal impact factor (Web of Science, 2024 edition). |
 | `Data_details`           | Notes about data extraction (e.g., whether derived from figures, tables, raw data) |
 | `Variable_name`          | Short description of the herbivory type|
 | `Variable_identity`      | Categorical flag: `intensity` (direct damage metrics such as % leaf‑area removed) or `abundance` (herbivore counts used as a proxy for herbivory pressure). |
 | `Plant_species`          | Scientific name of the plant species involved |
 | `Plant_status`           | Whether the plant is native or non-native in the study location (`native` / `non-native`) |
-| `Herbivore_feeding_guild`| Type of herbivore feeding guild: `All folivores`, `defoliator`, `Grazers`, `Gallers`, `Miners`, `Seed feeders`, `Sap feeders`, `Stem feeders`. |
+| `Herbivore_feeding_guild`| Type of herbivore feeding guild: `All folivores`, `defoliators`, `Grazers`, `Gallers`, `Miners`, `Seed feeders`, `Sap feeders`, `Stem feeders`. |
 | `cor`                    | Raw Pearson correlation coefficient between herbivory and latitude |
 | `n`                      | Number of observations (e.g., sites or populations) used to calculate the correlation |
 | `zr`                     | Fisher’s z-transformed correlation coefficient |
@@ -43,7 +43,7 @@ A companion UTF‑8 CSV that expands the latitude dataset with **WorldClim 2.1 b
 
 ## Notes
 
-- Units follow WorldClim conventions (temperature × 10 °C, precipitation in mm).  
+- Units follow WorldClim conventions.  
 - Negative `zr` implies herbivory increases as the climate variable decreases (and vice‑versa).  
 - Used as moderators in mixed‑effects REML models examining bioclimatic effects on herbivory across latitude.
 
