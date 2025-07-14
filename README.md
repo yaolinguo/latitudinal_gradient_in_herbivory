@@ -23,7 +23,7 @@ The webpage containing the neatly formatted supplementary material (code, figure
 
 - `R code 2 - Herbivory feeding guild effects - 0713.R`  Conducts subgroup meta‑analyses by herbivore feeding guilds, produces forest plots, and tests whether feeding guild differentially moderates herbivory in native versus non‑native plants.
 
-- `R code 3 - Bioclimatic variable effects - 0713.R`  Quantify how bioclimatic variables influence the latitudinal pattern of herbivory.
+- `R code 3 - Bioclimatic variable effects - 0713.R`  Quantifies how bioclimatic variables influence the latitudinal pattern of herbivory.
 
 - `R code 4 - Publication bias assessment - 0713.R`  Detects and corrects publication bias using funnel plots, Egger’s regression, and trim‑and‑fill procedures, and exports comprehensive bias‑diagnostic outputs.
 
