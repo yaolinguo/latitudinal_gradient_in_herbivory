@@ -7,7 +7,7 @@ The documents in this repository provide the R scripts, data, and supplementary 
 **Corresponding author:** Rui-Ting Ju ([jurt@fudan.edu.cn](mailto:jurt@fudan.edu.cn))   
 
 The webpage containing the neatly formatted supplementary material (code, figures, and data) can be found here:  
-[https://yaolinguo.github.io/latitudinal_gradient_in_herbivory/](https://yaolinguo.github.io/latitudinal_herbivory_gradients/)
+[https://yaolinguo.github.io/latitudinal_herbivory_gradients/](https://yaolinguo.github.io/latitudinal_herbivory_gradients/)
 
 **Data folder:**
 
